@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Blogr</title>
+</head>
+<body>
+    <div class="page">
+        <div class="head">
+            <div class="logo">
+                <a href="#"><img src="images/logo.svg"></a>
+            </div>
+            <div class="nav_menu">
+                <ul>
+                    <a href="#"><li>product <img src="images/icon-arrow-light.svg"></li></a>
+                    <a href="#"><li>Company <img src="images/icon-arrow-light.svg"></li></a>
+                    <a href="#"><li>Connect <img src="images/icon-arrow-light.svg"></li></a>
+                </ul>
+            </div>
+            <div class="login">
+                <li>Login</li>
+            </div>
+            <div class="signup">
+                <button>sign up</button>
+            </div>
+            <div class="text">
+                <h1>A modern publishing platform</h1>
+                <p>Grow your audience and build your online brand</p>
+                <ul>
+                    <button class="btn1">Start for free </button>
+                    <button class="btn2">Learn More </button>
+                </ul>
+            </div>
+        </div>
+
+
+        <section class="body">
+            <div class="heading">
+                <h1>Designed for the future</h1>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <div class="left_text">
+                        <div class="left_text1">
+                            <h1>Introducing an extensible editor</h1>
+                            <p>Blogr features an exceedingly intuitive interface which lets 
+                            you focus on one thing: creating conten. The editor supports 
+                            management of multiple blogs and allow easy manipulation of 
+                            embeds such as images, videos, and Markdown. Extensiblitity 
+                            with plugins and themes provide easy ways to add functionality 
+                            or change the looks of a blog.
+                            </p>
+                        </div>
+                        <div class="left_text2">
+                            <h1>Robust content management</h1>
+                            <p>Flexible content management enables users to easily move through
+                            posts. Increase the usabitlity of your blog by adding customized
+                            categories, setions, formats or flow. With this functionality, 
+                            you're in full control.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <img src="images/illustration-editor-desktop.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+
+       <section class="body1">
+           <img src="images/bg-pattern-circles.svg">
+           <div class="left_text3">
+               <img src="images/illustration-phones.svg">
+           </div>
+           <h1>State of the Art Infrastructure</h1>
+            <p>With reliability and speed in mind.
+               worldwide data centers privide the<br> backbone for ultra-fast 
+               connectivity. This is ensures your site wil load<br> instantly, 
+               no matter whre your readers are, keeping your site<br> competitive.
+            </p>
+       </section>
+    </div>
+
+
+    <section class="body2">
+        <div class="left_text4">
+            <img src="images/illustration-laptop-desktop.svg">
+        </div>
+        <div class="right_text">
+            <div class="right_text1">
+                <h1>Free, open, simple</h1>
+                    <p>Blogr is a free and open source application backed by a large<br> 
+                        community of helpful developers. It supports features such 
+                        as code syntax highlighting, RSS feeds, social media 
+                        integration, third-party commenting tools, and works 
+                        seamlessly with Google Analytics.<br> The architecture is clean 
+                        and is relatively easy to learn.
+                    </p>
+            </div>
+            <div class="right_text2">
+                <h1>Powerful tooling</h1>
+                    <p>
+                        Batteries included. We built a simple and straightforward 
+                        CLI tool makes customization and deployment a breeze, but 
+                        capable of producing even the most complicated sites.
+                    </p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="footer">
+        <div class="logo1">
+            <a href="#"><img src="images/logo.svg"></a>
+        </div>
+        <div class="elem">
+            <ul>
+                <li>Products</li>
+                <li>Company</li>
+                <li>Connect</li>
+            </ul>
+        </div>
+        <div class="col-2">
+            <ul>
+                <a href="#"><li>Overview</li></a>
+                <a href="#"><li>Pricing</li></a>
+                <a href="#"><li>Marketplace</li></a>
+                <a href="#"><li>Features</li></a>
+                <a href="#"><li>Integration</li></a>
+            </ul>
+        </div>
+        <div class="col-3">
+            <ul>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Team</li></a>
+                <a href="#"><li>Blog</li></a>
+            </ul>
+        </div>
+        <div class="col-4">
+            <ul>
+                <a href="#"><li>Contact</li></a>
+                <a href="#"><li>NewsLetter</li></a>
+                <a href="#"><li>LinkedIn</li></a>
+            </ul>
+        </div>
+    </div>
+
+
+    <script>
+        const sc =ScrollReveal({distance: '30px' , duration:1800, reset: true});
+        sr.reveal(".left_text1, .left_text2, .left_text4," {origin: 'left'});
+        sr.reveal(".col-1 img, .right_text1, .right_text2",{origin: 'origin'});
+    </script>
+
+</body>
+</html>       
+
